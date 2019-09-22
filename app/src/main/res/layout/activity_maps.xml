@@ -1,0 +1,68 @@
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scrollbars="vertical"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        tools:layout="@layout/activity_maps">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.ekalips.fancybuttonproj.FancyButton
+                android:id="@+id/loca"
+                android:layout_width="300dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center"
+                app:f_btnStyle="stroke_fill"
+                app:f_fillColor="@android:color/holo_blue_bright"
+                app:f_hideFillAfterCollapse="false"
+                app:f_progressColor="@android:color/holo_green_light"
+                app:f_strokeColor="@android:color/holo_red_light"
+
+                app:f_text="@string/direct_to_bus"
+                app:f_textColor="#000"
+                app:f_textSize="15sp" />
+
+            <com.ekalips.fancybuttonproj.FancyButton
+                android:id="@+id/direc"
+                android:layout_width="300dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center"
+                app:f_btnStyle="stroke_fill"
+                app:f_fillColor="@android:color/holo_blue_bright"
+                app:f_hideFillAfterCollapse="false"
+                app:f_progressColor="@android:color/holo_green_light"
+                app:f_strokeColor="@android:color/holo_red_light"
+
+                app:f_text="@string/bus_route"
+                app:f_textColor="#000"
+                app:f_textSize="15sp" />
+
+            <com.ekalips.fancybuttonproj.FancyButton
+                android:id="@+id/coldir"
+                android:layout_width="300dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center"
+                app:f_btnStyle="stroke_fill"
+                app:f_fillColor="@android:color/holo_blue_bright"
+                app:f_hideFillAfterCollapse="false"
+                app:f_progressColor="@android:color/holo_green_light"
+                app:f_strokeColor="@android:color/holo_red_light"
+
+                app:f_text="@string/d"
+                app:f_textColor="#000"
+                app:f_textSize="16sp" />
+
+
+        </LinearLayout>
+
+
+    </fragment>

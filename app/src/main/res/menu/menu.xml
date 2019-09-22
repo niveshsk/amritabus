@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<item android:id="@+id/profile" android:title="@string/profile"
+    android:icon="@drawable/use1"/>
+    <item android:id="@+id/signout1" android:title="@string/signout"/>
+
+</menu>

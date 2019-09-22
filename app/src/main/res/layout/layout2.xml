@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="99dp"
+        android:layout_height="75dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/bust" />
+
+    <TextView
+        android:id="@+id/bus1"
+        android:layout_width="156dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:focusable="auto"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:text=""
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
